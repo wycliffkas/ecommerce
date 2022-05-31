@@ -9,11 +9,10 @@ const Pay = () => {
 	const navigate = useNavigate();
 
 	const onToken = (token) => {
-    console.log("token", token)
 		setStripeToken(token);
 	};
 
-  console.log()
+
 
 	useEffect(() => {
 		const makeRequest = async () => {
